@@ -9,8 +9,9 @@ Magic folders in Unity3D are a folders that can be used with the unity command t
 
 - How do you structure the root of your `Assets` folder?
 
-To structure the Assets folder, I create these folders : Mesh3D, Plugins, Prefabs, Scripts, Textures, UI (or UI in Textures), Videos.
+To structure the Assets folder, I create these folders : Materials, Mesh3D, Plugins, Prefabs, Scenes, Scripts, Textures, UI (or UI in Textures), Videos.
 
 - Bonus: What plugins do you recommend to get started on a large Unity3D project and why?
 
 I recommend the ITween plugin for create a simple and cool animations with curves. This plugin it's optimized for mobile game and can also be used in the UI.
+I recommend the TextMeshPro plugin too.
