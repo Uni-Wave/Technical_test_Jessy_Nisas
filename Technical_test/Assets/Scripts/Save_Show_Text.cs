@@ -8,8 +8,11 @@ public class Save_Show_Text : MonoBehaviour
     {
         TextMeshProUGUI tmp = GetComponent<TextMeshProUGUI>();
 
-        if (tmp != null)
+        // If tmp == null, I'm in the scene1 else I show text 
+        if (tmp != null)  
             tmp.text = PlayerPrefs.GetString("TextScene1");
+        else
+            PlayerPrefs.SetString("TextScene1", "");
     }
     public void SaveString(string text)
     {
