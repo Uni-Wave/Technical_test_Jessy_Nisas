@@ -14,4 +14,4 @@ To structure the Assets folder, I create these folders : Materials, Mesh3D, Plug
 - Bonus: What plugins do you recommend to get started on a large Unity3D project and why?
 
 I recommend the ITween plugin for create a simple and cool animations with curves. This plugin it's optimized for mobile game and can also be used in the UI.
-I recommend the TextMeshPro plugin too.
+I recommend the TextMeshPro plugin too, to be able to customize the font.
